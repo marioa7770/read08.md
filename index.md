@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+#Loops and iteration#
 
-You can use the [editor on GitHub](https://github.com/marioa7770/read08.md/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Loops is a way to to do something repeatedly, there are various loop mechanisms that offer different ways to determine the start and end of a loop. Some are better situated than others, the following are the different statement for loops
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+-for statement
+-do..while statement
+-while statement
+-labeled statement
+-break statement
+-continue statement
+-for..in statement
+-for..of statement
 
-### Markdown
+a for loop repeats until a specified condition equals false an example of a for statement is
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+for ([initialExpression];[conditionExpression;[incrementExpression])statement
 
-```markdown
-Syntax highlighted code block
+the inital expression is executed
+the condition expression is evaluated if the value of the condition expression is true the loop executes if false the loop terminates.
+if present the update expression incremenetExpression is executed
 
-# Header 1
-## Header 2
-### Header 3
+A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks like this.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marioa7770/read08.md/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+while (condition)
+  statement
+  
+  If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+  if the condition returns true, statement is executed and the condition is tested again
